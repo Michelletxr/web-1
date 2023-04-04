@@ -1,0 +1,14 @@
+body {
+    background-color: aqua;
+}
+
+ul {
+    margin: 10px;
+}
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    background: #eee;
+    font-size: 15px;
+}
