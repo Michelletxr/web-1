@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: rgb(153, 206, 212);
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#main {
+    background-color: azure;
+    margin-right: 1em;
+    justify-items: flex-end;
+    height: 220px;
+    display: inline-block;
+}
+#title {
+    margin-left: 24%;
+}
+
+.field {
+    padding-top: 10px;
+}
+.item{
+    padding-left: 10px;
+}
