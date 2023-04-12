@@ -2,20 +2,41 @@
 
 body {
     background-color: rgb(153, 206, 212);
-    justify-content: center;
-    margin-left: 25%;
-    margin-top: 10%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+#nav{
+    margin-top: 0.1%;
+    margin-left: 0.5%;
 }
 
 #main {
+    position: absolute;
     background-color: azure;
-    margin-right: 1em;
-    justify-items: flex-end;
-    height: 220px;
-    display: inline-block;
+    height: 300px;
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 5px;
+    
 }
+
+.form{
+    display: flex;
+    margin-top: 10px;
+}
+
 #title {
-    margin-left: 24%;
+   margin-left: 30%;
 }
 
 .field {
